@@ -1,0 +1,201 @@
+/*Color, Fonts and Variable Setup*/
+
+:root{
+    --font-base:"montserrat",sans-serif;
+    --c-primary:#CE3939;
+    --c-secondry:#1A1F51;
+    --c-secondry2:#D1A29F; 
+    --c-background:#fdefef;
+}
+
+
+body{
+    font-family:var(--font-base);
+}
+
+.h1 .h2 .h3 .h4 .h5 .h6{
+    font: weight 600 ;
+}
+
+a{
+    text-decoration: none;
+    color:var(--c-primary);
+}
+
+a:hover{
+    color: var(--c-secondry);
+}
+
+.section-padding{
+    padding-top:120px;
+    padding-bottom: 120px;   
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+
+/*Background, Button and text css Setup*/
+
+
+.backcolor{
+    background-color:var(--c-background);
+}
+
+.btn{
+   font-weight: 600 !important;
+}
+
+.btn-primary{
+    background-color: #CE3939 !important;  
+    border: none !important;
+    
+}
+
+.btn:hover{
+    background-color: #1A1F51 !important;
+    color: var(--c-background) !important;
+}
+
+
+.title{
+    text-align: center;
+    color: #CE3939;
+    font-weight: 500;
+}
+
+.p-text{
+    text-align: center;
+    color: #1A1F51;
+    font-size: 18px;
+}
+
+
+
+
+
+/*Navbar css Setup*/
+.navbar{
+    font-family:var(--font-base);
+    font-size: 18px;
+    font-weight:600;
+}
+
+.navcolor{
+    background-color:var(--c-background);
+}
+
+
+.background-image{
+    background: url(../img/content/hero.png) !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+}
+
+
+
+/*Hero css setup*/
+
+#hero{
+    background: url(../img/content/hero.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+}
+
+.herotext{
+    font-family: var(--font-base);
+    font-size: 80px;
+    line-height: 75px ;
+    font-weight: 700;
+    color: #CE3939;
+}
+
+
+/*Card css setup*/
+
+.card{
+    background-color: #fdf3f3 !important;
+    border: none !important;
+    border-radius: 15px !important;
+    box-shadow: 4px 6px 20px #ffe1e1 !important;
+    margin: 10px;
+}
+
+.card-img-top{
+    border-radius: 15px 15px 0px 0px;
+    
+}
+
+.card-title{
+    font-weight: 600;
+}
+
+
+
+.items {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+.card {
+      margin: 20px;
+    }
+
+
+
+/*testomonial css setup*/
+
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    height: 100px;
+    width: 100px;
+    outline:none;
+    background-color:#CE3939;
+    background-size: 100%, 100%;
+    border-radius: 50%;
+    border: 2px solid #CE3939;
+    padding: 5px;
+}
+
+#profile-pic{
+    width:300px !important; 
+    height: auto !important;
+    
+
+}
+
+#star{ 
+    width: 200px !important; 
+    height: auto !important;
+
+}
+
+.card-padding{
+    padding: 0px 10% 10px 10% ;
+}
+
+
+.card-text{
+    color: #CE3939 !important;
+    font-weight: 500;
+}
+
+
+
+/*footer css setup*/
+
+.text-reset{
+    font-family:var(--font-base) !important;
+    font-size: 18px !important;
+    font-weight:600 !important;
+    text-decoration: none;
+
+}
+
