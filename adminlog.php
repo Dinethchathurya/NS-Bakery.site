@@ -5,10 +5,10 @@ if (isset($_POST['submit'])) {
 
     $paraforadminphp = $_POST['submit'];
 
-    $server = "localhost";
-    $username = "root";
-    $passwod = "root1234";
-    $db = "NS";
+    $server = "";
+    $username = "";
+    $passwod = "";
+    $db = "";
 
     $conn = mysqli_connect($server, $username, $passwod, $db);
 
@@ -26,7 +26,7 @@ if (isset($_POST['submit'])) {
 
     if ($check > 0) {
         while ($row = mysqli_fetch_assoc($result)) {
-            if ($row['password'] == $pass && $email == 'notuser@gmail.com') {
+            if ($row['password'] == $pass && $email == '') {
                 header("Location: admin.php?variableName=" . $paraforadminphp);
             } else
                 header("Location: index.html");
